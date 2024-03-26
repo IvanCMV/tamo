@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('f3.png'); 
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #transparent; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    color: #D0D3D4 ;
+    text-align: center;
+}
+
+.contenido {
+    margin-top: 20px;
+    line-height: 1.6;
+    color:#D0D3D4 ;
+
+}
+
+
+
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.imagen img {
+    width: 300px; 
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.descripcion {
+    font-size: 14px;
+    color: #D0D3D4 ;
+    background-color: #transparent; 
+    padding: 5px 10px; 
+    border-radius: 5px;
+    margin: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.boton-redireccion {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #transparent; 
+    color: #D0D3D4; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-redireccion:hover {
+    background-color: #A569BD ; 
+}
+
+
